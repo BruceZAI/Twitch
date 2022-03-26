@@ -26,8 +26,8 @@ public class ApplicationConfig {
     public DataSource dataSource() {
         String RDS_ENDPOINT = "twitch.cdmavvjc1btu.us-west-1.rds.amazonaws.com";
         String USERNAME = "admin";
-        String PASSWORD = "cjh19980329";
-        //需要修改红色部分, 保留其他内容,  YOUR_RDS_INSTANCE_ADDRESS,USERNAME,  PASSWORD are information created last lesson
+        String PASSWORD = "";
+        
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://" + RDS_ENDPOINT + ":3306/twitch?createDatabaseIfNotExist=true&serverTimezone=UTC");
