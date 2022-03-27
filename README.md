@@ -9,6 +9,9 @@ A Personalized Twitch Resources Recommendation Engine
 6. Deployed the service to AWS EC2 for better stability
 
 
-The actual interface is shown in the figure
+
+
+
+The actual interface is shown in the figure：
 ![image](https://user-images.githubusercontent.com/41571096/160306305-fcdab753-4371-466f-b246-e8e04e27e2bc.png)
 ![image](https://user-images.githubusercontent.com/41571096/160306348-fdae5ed6-4e9e-48c0-b74b-31bc6b8a79ad.png)
